@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  background-color: #1e2d3b;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.small-containers {
+  background-color: white;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  flex-wrap: wrap;
+}
