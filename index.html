@@ -19,8 +19,8 @@
 
   <div  id="app" >
       <div v-for="(album, index) in dischi" class="small-containers">
-        <img :src="album.poster" alt="">
-        <p>{{album.title}}</p>
+        <div><img :src="album.poster" alt=""></div>
+        <h3>{{album.title}}</h3>
         <p>{{album.author}}</p>
         <p>{{album.genre}}</p>
         <p>{{album.year}}</p>

@@ -17,9 +17,15 @@
 .small-containers {
   background-color: white;
   height: 200px;
-  width: 300px;
+  width: 250px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
   border: 1px solid black;
   flex-wrap: wrap;
+}
+
+.small-containers img {
+  height: 100px;
 }
